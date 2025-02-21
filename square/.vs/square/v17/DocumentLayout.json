@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vlad\\source\\repos\\square\\",
+  "WorkspaceRootPath": "C:\\Users\\vlad\\REPOS\\laboratory-work-1\\square\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76A390E8-85C8-4989-AD5D-02857422CF95}|square.vcxproj|C:\\Users\\vlad\\source\\repos\\square\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{76A390E8-85C8-4989-AD5D-02857422CF95}|square.vcxproj|C:\\Users\\vlad\\REPOS\\laboratory-work-1\\square\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{76A390E8-85C8-4989-AD5D-02857422CF95}|square.vcxproj|solutionrelative:square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "square.cpp",
-              "DocumentMoniker": "C:\\Users\\vlad\\source\\repos\\square\\square.cpp",
+              "DocumentMoniker": "C:\\Users\\vlad\\REPOS\\laboratory-work-1\\square\\square.cpp",
               "RelativeDocumentMoniker": "square.cpp",
-              "ToolTip": "C:\\Users\\vlad\\source\\repos\\square\\square.cpp",
+              "ToolTip": "C:\\Users\\vlad\\REPOS\\laboratory-work-1\\square\\square.cpp",
               "RelativeToolTip": "square.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
