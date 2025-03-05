@@ -1,6 +1,0 @@
-﻿  square.cpp
-C:\Users\vlad\REPOS\laboratory-work-1\square\square.cpp(9,11): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "int"
-C:\Users\vlad\REPOS\laboratory-work-1\square\square.cpp(12,11): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "int"
-C:\Users\vlad\REPOS\laboratory-work-1\square\square.cpp(13,54): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\vlad\REPOS\laboratory-work-1\square\square.cpp(9,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\vlad\REPOS\laboratory-work-1\square\square.cpp(12,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
