@@ -51,19 +51,23 @@ void Trapezoid() { //Подземельный
 int main() {
 
     setlocale(LC_ALL, "Russian");
-    enum choice {SQR = 1, TRAP, EXIT};
+    enum choice {SQR = 1, TRAP, TRIA, EXIT};
     int x;
     while(1){
-        cout << "Выберете фигуру\n1 - прямоугольник\n2 - трапеция\n3 - выход из программы\n";
+        cout << "Выберете фигуру\n1 - прямоугольник\n2 - трапеция\n3 - треугольник\n4 - выход из программы\n";
         cin >> x;
         switch (x) {
         case EXIT:
+            cout << "Программа завершена\n";
             exit(0);
         case SQR:
             Square();
             break;
         case TRAP:
             Trapezoid();
+            break;
+        case TRIA:
+            //сюда добавить вызов функции треугольника
             break;
         default:
             cout << "Неверное значение, перезапустите программу\n";
