@@ -57,7 +57,7 @@ void Trapezoid() { //Подземельный
 
 void Triangle(){ // Несов
     float S, s;
-    cout << "Введите длины сторон через Enter";
+    cout << "Введите длины сторон через Enter:\n";
     cin >> x;
     cin >> y;
     cin >> z;
