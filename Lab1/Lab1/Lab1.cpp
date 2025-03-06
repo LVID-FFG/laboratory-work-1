@@ -101,7 +101,7 @@ int main() {
             Trapezoid();
             break;
         case TRIA:
-            Triangle();//сюда добавить вызов функции треугольника
+            Triangle();
             break;
         default:
             cout << "Неверное значение, перезапустите программу\n";
