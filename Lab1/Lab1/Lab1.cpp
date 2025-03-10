@@ -56,24 +56,23 @@ void Trapezoid() { //Подземельный
 }
 
 void Triangle(){ // Несов
-    float S, s;
+    float S, s, x, y, z, P, p;
     cout << "Введите длины сторон через Enter:\n";
     cin >> x;
-    cin >> y;
-    cin >> z;
     if (x <= 0 || cin.fail()) {
         cout << "Неверное значение, перезапустите программу\n";
         exit(0);
     }
+    cin >> y;
     if (y <= 0 || cin.fail()) {
         cout << "Неверное значение, перезапустите программу\n";
         exit(0);
     }
+    cin >> z;
     if (z <= 0 || cin.fail()) {
         cout << "Неверное значение, перезапустите программу\n";
         exit(0);
     }
-    
     P = x + y + z;
     p = P / 2;
     S = p * (p-x) * (p-y) * (p-z);
@@ -81,7 +80,6 @@ void Triangle(){ // Несов
     cout << "Периметр: "<< P << " " << "Полупериметр: " << " " << p << "Площадь: " << s << endl;
 }
 
-}
 int main() {
 
     setlocale(LC_ALL, "Russian");
