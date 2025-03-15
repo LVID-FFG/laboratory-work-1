@@ -5,7 +5,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     printf("Введите высоту\n");
-    int h;
+    int h; //123
     scanf("%d", h);
     printf("Введите длинну\n");
     int l;
