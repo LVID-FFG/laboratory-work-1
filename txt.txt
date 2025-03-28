@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "RUS");
+    float S, s, x, y, z, P, p;
+    int k = 0;
+    
+    cout << "Введите длины сторон через Enter:\n";
+    cin >> x;
+
+    cin >> y;
+    cin >> z;
+    if (x <= 0 || y <= 0 || z <= 0) {
+        cout << "Ошибка, все стороны должны быть больше нуля\n";
+        exit(0);
+    }
+    if (x + y <= z || x + z <= y || y + z <= x) {
+        cout << "Ошибка, треугольник не может существовать\n";
+        exit(0);
+    }
+    
+    P = x + y + z;
+    p = P / 2;
+    S = p * (p - x) * (p - y) * (p - z);
+    s = sqrt(S);
+    if (x == y || y == z || x == z) {
+        k += 1;
+    }
+
+    cout << "Периметр: " << P << " Полупериметр: " << p << " Площадь: " << s << " ";
+    
+    if (k >= 1) {
+        cout << "Треугольник равнобедренный" << endl;
+    } else {
+        cout << "Треугольник не является равнобедренным" << endl;
+    }
+    
+    return 0;
+}
+
